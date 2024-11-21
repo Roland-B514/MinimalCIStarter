@@ -32,7 +32,7 @@ class BookStoreTest {
         // Add book to bookstore
         // TODO: You can make this test fail by adding a line or two here... Have a go at breaking it
         // (HINT) You don't need to make any additional assertions
-        bookstore.addBook(new Book(bookTitle, 9.99))    // findBook method does not compare the book price in addition to the book title
+        bookstore.addBook(new Book(bookTitle, 9.99));    // findBook method does not compare the book price in addition to the book title
         bookstore.addBook(book);
 
         // Find book in bookstore
